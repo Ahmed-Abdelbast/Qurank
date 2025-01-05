@@ -6,6 +6,7 @@ import './App.css'
 import Layout from './Components/layout/Layout'
 import Home from './Components/Home/Home'
 import Quran from './Components/Quran/Quran';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
     {path:"" , element:<Layout /> , children:[
       {path:"" , element:<Home />},
       {path:"home" , element:<Home />},
-      {path:"quran" , element:<Quran />}
+      {path:"quran" , element:<Quran />},
+      {path:"*" , element:<PageNotFound />},
     ]}
   ])
 

@@ -1,0 +1,22 @@
+.Cardrotate:hover{
+
+    transform: scale(0.9);
+    
+}
+.Cardrotate{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sora{
+    transform: translateX(100%);
+    display: none;
+    transition: all 1s;
+}
+.sora2{
+    transform: translateX(0);
+    display: block;
+    transition: transform 1s;
+}
+.carosal{
+    cursor: pointer;
+}

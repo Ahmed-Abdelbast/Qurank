@@ -1,0 +1,14 @@
+.qurank{
+    color: green
+
+  
+}
+
+.active {
+    /* border-bottom border-2 border-success px-3
+border-bottom border-2 border-success px-3 */
+
+
+border-bottom: 2px solid green !important;
+padding-inline:20px !important;
+}
